@@ -1,9 +1,12 @@
+import ThreeBackground from "./ThreeBackground";
+
 function Navbar() {
   return (
     <section
       id="navbar"
       className="absolute z-50 w-[100%] h-[5%] flex items-center justify-center syne"
     >
+      <ThreeBackground />
       <nav
         id="nav"
         className="flex flex-row justify-around items-center w-[50%] h-[30%] rounded-full   shadow-md shadow-[#C6C6C6] text-[#D6EDFF]"

@@ -4,10 +4,12 @@ import quoteleft from "../assets/quote-left.png";
 import moon from "../assets/moon.png";
 import cloud from "../assets/cloud.png";
 import cloud1 from "../assets/cloud1.png";
+import ThreeBackground from "./ThreeBackground";
 
 function HeaderSection() {
   return (
     <section id="headersection" className="absolute z-1 w-[100%] h-[70%] ">
+      <ThreeBackground />
       <mian
         id="main-header"
         className=" flex felx-row items-center syne relative w-[100%] h-[50%]"

@@ -14,8 +14,8 @@ function App() {
         <Navbar />
         <HeaderSection />
         <Skill />
-        <ThreeBackground />
-        <ThreeBackground />
+        {/* <ThreeBackground />
+        <ThreeBackground /> */}
       </div>
     </div>
   );
