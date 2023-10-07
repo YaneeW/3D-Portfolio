@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.three_bg {
+  position: relative;
+  width: 100vw;
+  /* height: 100%; */
+  background: #111;
+  color: #fff;
+  z-index: 0;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+.roboto {
+  font-family: "Roboto Slab", serif;
+}
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+.syne {
+  font-family: "Syne", sans-serif;
+}
+
+.custom-text-shadow {
+  text-shadow: 4px 4px 7px rgba(157, 158, 160, 0.945);
+}
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 230, 138),
+    rgb(124, 58, 237),
+    rgb(12, 74, 110)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
