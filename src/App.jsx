@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="app">
       <div className="three_bg">
+        <ThreeBackground />
         <Navbar />
         <HeaderSection />
+
         <Skill />
-        {/* <ThreeBackground />
-        <ThreeBackground /> */}
       </div>
     </div>
   );

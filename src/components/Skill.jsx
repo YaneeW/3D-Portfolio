@@ -10,7 +10,6 @@ import postman from "../assets/postman.png";
 import react from "../assets/react.png";
 import vscode from "../assets/vscode.png";
 import tailwild from "../assets/tailwind.png";
-import ThreeBackground from "./ThreeBackground";
 
 function Skill() {
   return (
@@ -18,7 +17,6 @@ function Skill() {
       id="skill"
       className="absolute z-1 top-[55%] flex flex-col items-center "
     >
-      <ThreeBackground />
       <header className="text-8xl syne m-[7%] custom-text-shadow">SKILL</header>
       <div
         id="icons"
