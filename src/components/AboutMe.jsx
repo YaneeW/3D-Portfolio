@@ -7,7 +7,7 @@ function AboutMe() {
     <section className=" w-[100%]">
       <main
         id="main-footer"
-        className="text-white flex flex-row  items-start absolute top-[160%]"
+        className="text-white flex flex-row  items-start absolute top-[150%]"
       >
         <div
           id="about-me"
@@ -28,7 +28,7 @@ function AboutMe() {
         <img
           src={cloud}
           alt="cloud"
-          className="absolute z-10 h-[180%] w-[100%] top-[70%] "
+          className="absolute z-10 h-[200%] w-[100%] top-[70%]"
         />
         <img
           src={quoteleft}

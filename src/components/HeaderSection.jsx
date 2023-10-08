@@ -20,13 +20,13 @@ function HeaderSection() {
         <img
           src={moon}
           alt="moon"
-          className="w-[40%] absolute left-[60%] top-[115%] animate-pulse delay-2000"
+          className="w-[40%] absolute left-[60%] top-[100%] animate-pulse delay-2000"
         />
 
         <img
           src={cloud}
           alt="cloud"
-          className="absolute top-[50%] right-[20%]"
+          className="absolute top-[55%] right-[20%] h-[90%] w-[100%]"
         />
 
         <div

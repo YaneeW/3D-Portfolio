@@ -15,7 +15,7 @@ function Skill() {
   return (
     <section
       id="skill"
-      className="absolute z-1 top-[100%] flex flex-col items-center "
+      className="absolute top-[220%] flex flex-col items-center "
     >
       <header className="text-8xl syne m-[7%] custom-text-shadow">SKILL</header>
       <div

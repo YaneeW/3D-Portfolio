@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <HeaderSection />
         <AboutMe />
-        {/* <Skill /> */}
+        <Skill />
       </div>
     </div>
   );
