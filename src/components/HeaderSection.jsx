@@ -7,31 +7,31 @@ import cloud1 from "../assets/cloud1.png";
 
 function HeaderSection() {
   return (
-    <section id="headersection" className="absolute z-1 w-[100%] h-[70%] ">
+    <section id="headersection" className=" w-[100%]">
       <main
         id="main-header"
-        className=" flex felx-row items-center syne relative w-[100%] h-[50%]"
+        className=" flex felx-row items-center syne w-[100%]"
       >
-        {/* <div className="bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 via-gray-500 to-yellow-300 w-[1000px] h-[1000px] absolute z-1 right-[60%] top-[30%] rounded-full blur-2xl"></div> */}
         <img
-          src={cloud}
-          alt="cloud"
-          className="absolute z-10 top-[110%] right-[30%] h-[80%] w-[90%]"
+          src={image}
+          alt="Developer"
+          className="w-[850px] h-[800px] absolute z-1 right-[50%] top-[15%] saturate-50 brightness-100 contrast-125"
         />
         <img
           src={moon}
           alt="moon"
-          className="w-[40%] absolute left-[60%] top-[140%] animate-pulse delay-2000"
+          className="w-[40%] absolute left-[60%] top-[115%] animate-pulse delay-2000"
         />
 
         <img
-          src={image}
-          alt="Developer"
-          className="w-[850px] h-[800px] absolute z-2 right-[50%] top-[20%] saturate-50 brightness-100 contrast-125"
+          src={cloud}
+          alt="cloud"
+          className="absolute top-[50%] right-[20%]"
         />
+
         <div
           id="message-about"
-          className="flex flex-col items-start justify-start absolute left-[50%] w-[50%] h-[70%]"
+          className="flex flex-col items-start justify-start absolute top-[25%] left-[50%] w-[50%] h-[70%] "
         >
           <h2 className="text-6xl pt-[13%] pb-[10%] custom-text-shadow">
             Hello..,
@@ -47,9 +47,9 @@ function HeaderSection() {
           </button> */}
         </div>
       </main>
-      <main
+      {/* <main
         id="main-footer"
-        className="text-white relative flex flex-row  items-start h-[30%] top-[50%]"
+        className="text-white relative flex flex-row  items-start top-[80%]"
       >
         <div
           id="about-me"
@@ -82,7 +82,7 @@ function HeaderSection() {
           className="absolute z-1 w-[60px] bottom-[8%] right-[12%]"
           alt="quote"
         />
-      </main>
+      </main> */}
     </section>
   );
 }

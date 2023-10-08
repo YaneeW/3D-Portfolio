@@ -3,7 +3,7 @@ import * as THREE from "three";
 
 const ThreeBackground = () => {
   useEffect(() => {
-    const container = document.querySelector(".three_bg");
+    const container = document.querySelector(".app");
     // const loader = new THREE.TextureLoader();
 
     const scene = new THREE.Scene();

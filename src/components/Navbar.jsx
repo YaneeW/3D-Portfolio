@@ -2,11 +2,11 @@ function Navbar() {
   return (
     <section
       id="navbar"
-      className="absolute z-1 w-[100%] h-[8%] flex items-center justify-center syne"
+      className="w-[100%] h-[15%] flex items-center justify-center syne"
     >
       <nav
         id="nav"
-        className="flex flex-row justify-around items-center w-[50%] h-[30%] rounded-full   shadow-md shadow-[#C6C6C6] text-[#D6EDFF]"
+        className="flex flex-row justify-around items-center w-[50%] h-[35%] rounded-full   shadow-md shadow-[#C6C6C6] text-[#D6EDFF]"
       >
         <div className="p-[5%] scale-100 hover:font-bold hover:scale-110 hover:text-[#FF00FF] transition ease-in-out duration-500 cursor-pointer">
           ABOUT
