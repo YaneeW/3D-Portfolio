@@ -11,7 +11,7 @@ function AboutMe() {
       >
         <div
           id="about-me"
-          className="syne text-8xl w-[50%] pt-[3%] pl-[15%] custom-text-shadow "
+          className="syne text-8xl w-[50%]  pl-[15%] custom-text-shadow "
         >
           ABOUT ME
         </div>

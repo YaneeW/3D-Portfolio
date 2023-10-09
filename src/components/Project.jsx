@@ -7,76 +7,104 @@ function Project() {
   return (
     <section
       id="project"
-      className="absolute top-[300%] flex flex-col items-center"
+      className="absolute top-[300%] flex flex-col items-center w-[100%]"
     >
-      <h1 className="text-8xl  syne custom-text-shadow m-[7%] flex justify-center items-center">
+      <h1 className="text-8xl syne custom-text-shadow m-[7%] flex justify-center items-center w-[30%]">
         PROJECT
       </h1>
 
-      <main className="grid grid-cols-2 gap-y-20 place-items-center w-[80%] syne ">
-        <div
-          id="Trip"
-          className="flex flex-col items-center w-[80%] border-4 border-[#212121] shadow-md shadow-[#212121] rounded-3xl  transform transition-transform duration-500"
-        >
+      <main className="grid grid-cols-2 gap-10 place-items-center w-[80%] syne ">
+        <div id="card" className="flex flex-col">
           <img
             src={trip}
             alt="Trip landing page"
-            className="h-[400px] w-[600px] p-10"
+            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
           />
-          <span className="text-center text-xl opacity-0 hover:opacity-100 transform hover:-translate-y-10 transition-transform duration-500">
-            A responsive landing page of Trip tour package
-          </span>
-          <span className="text-center text-xl p-4 opacity-0 hover:opacity-100 transform hover:-translate-y-10 transition-transform duration-500">
-            HTML,CSS.Tailwind
-          </span>
+          <div
+            id="info"
+            className="flex flex-col items-start justify-evenly w-[100%] p-6 text-md rounded-xl"
+          >
+            <span>A responsive landing page of Trip tour package</span>
+            <span>HTML , CSS , Tailwind</span>
+            <a
+              target="_blank"
+              href="https://tripp-landing-page.vercel.app/"
+              className="bg-white text-black w-[60px] h-[30px] p-1 rounded-sm mt-2 font-bold text-center"
+            >
+              View
+            </a>
+          </div>
         </div>
-        <div
-          id="Tourist"
-          className="flex flex-col items-center w-[80%] bg-[#212121]"
-        >
+        <div id="card" className="flex flex-col">
           <img
             src={tourist}
             alt="Tourist"
-            className="h-[400px] w-[600px] p-10"
+            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
           />
-          <span className="text-center text-md">
-            A tourist website to serach tourist attraction that user interest
-          </span>
-          <span className="text-center text-xl p-4">React + Vite</span>
+          <div
+            id="info"
+            className="flex flex-col items-start justify-evenly w-[100%] p-6 text-md rounded-xl"
+          >
+            <span>
+              A tourist website to serach tourist attraction that user interest
+            </span>
+            <span>React + Vite</span>
+            <a
+              target="_blank"
+              href="https://github.com/YaneeW/Tourist"
+              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 font-bold text-center"
+            >
+              View
+            </a>
+          </div>
         </div>
-        <div
-          id="Questin blog"
-          className="flex flex-col justify-evenly items-center w-[80%] bg-[#212121]"
-        >
+        <div id="card" className="flex flex-col ">
           <img
             src={question}
             alt="Questin blog"
-            className="h-[400px] w-[600px] p-10"
+            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
           />
-          <span className="text-center text-xl">
-            A question blog post with CRUD
-          </span>
-          <span className="text-center text-xl p-4">
-            Node.js,Express,MongoDB
-          </span>
+          <div
+            id="info"
+            className="flex flex-col items-start justify-evenly w-[100%] p-6 rounded-xl"
+          >
+            <span className="text-lg">A question blog post with CRUD</span>
+            <span className="text-lg">Node.js,Express,MongoDB</span>
+            <a
+              target="_blank"
+              href="https://github.com/YaneeW/Question-blog-post"
+              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 font-bold text-center text-md"
+            >
+              View
+            </a>
+          </div>
         </div>
-        <div
-          id="Courseflow"
-          className="flex flex-col justify-center items-center w-[80%] bg-[#212121]"
-        >
+        <div id="card" className="flex flex-col">
           <img
             src={course}
             alt="course-flow"
-            className="h-[400px] w-[600px] p-10"
+            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
           />
-          <span className="text-center text-sm">
-            E-commerce website with course,lesson,sublesson card. Implemented
-            user authentication and admin panel for subscription, create course
-            management
-          </span>
-          <span className="text-center text-xl p-4">
-            React + Vite ,Node.ja ,Express, Supabase(sql)
-          </span>
+          <div
+            id="info"
+            className="flex flex-col items-start justify-evenly w-[100%] p-6 text-md rounded-xl"
+          >
+            <span className="">
+              E-commerce website with course,lesson,sublesson card. Implemented
+              user authentication and admin panel for subscription, create
+              course management
+            </span>
+            <span className="">
+              React + Vite ,Node.ja ,Express, Supabase(sql)
+            </span>
+            <a
+              target="_blank"
+              href="https://github.com/YaneeW/courseflow"
+              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 font-bold text-center"
+            >
+              View
+            </a>
+          </div>
         </div>
       </main>
     </section>

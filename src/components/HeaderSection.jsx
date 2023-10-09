@@ -31,7 +31,7 @@ function HeaderSection() {
 
         <div
           id="message-about"
-          className="flex flex-col items-start justify-start absolute top-[25%] left-[50%] w-[50%] h-[70%] "
+          className="flex flex-col items-start justify-start absolute top-[15%] left-[50%] w-[50%] h-[70%] "
         >
           <h2 className="text-6xl pt-[13%] pb-[10%] custom-text-shadow">
             Hello..,
