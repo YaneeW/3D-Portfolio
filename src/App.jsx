@@ -16,6 +16,7 @@ function App() {
       <ThreeBackground />
       <ThreeBackground />
       <ThreeBackground />
+      <ThreeBackground />
       <div className="portdetail">
         <Navbar />
         <HeaderSection />

@@ -7,7 +7,7 @@ function Project() {
   return (
     <section
       id="project"
-      className="absolute top-[300%] flex flex-col items-center w-[100%]"
+      className="absolute top-[290%] flex flex-col items-center w-[100%]"
     >
       <h1 className="text-8xl syne custom-text-shadow m-[7%] flex justify-center items-center w-[30%]">
         PROJECT
