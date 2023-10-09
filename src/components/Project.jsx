@@ -2,6 +2,7 @@ import course from "../assets/course.png";
 import trip from "../assets/trip.png";
 import tourist from "../assets/tourist.png";
 import question from "../assets/question.png";
+import cloud from "../assets/cloud.png";
 
 function Project() {
   return (
@@ -9,6 +10,16 @@ function Project() {
       id="project"
       className="absolute top-[290%] flex flex-col items-center w-[100%]"
     >
+      <img
+        src={cloud}
+        alt="cloud"
+        className="absolute  -left-[20%] -top-[5%] h-[40%] w-[60%]"
+      />
+      <img
+        src={cloud}
+        alt="cloud"
+        className="absolute top-[60%] left-[30%] h-[50%] w-[80%]"
+      />
       <h1 className="text-8xl syne custom-text-shadow m-[7%] flex justify-center items-center w-[30%]">
         PROJECT
       </h1>
@@ -18,7 +29,7 @@ function Project() {
           <img
             src={trip}
             alt="Trip landing page"
-            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
+            className="h-[400px] w-[600px] relative rounded-lg"
           />
           <div
             id="info"
@@ -39,7 +50,7 @@ function Project() {
           <img
             src={tourist}
             alt="Tourist"
-            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
+            className="h-[400px] w-[600px] relative rounded-lg "
           />
           <div
             id="info"
@@ -62,7 +73,7 @@ function Project() {
           <img
             src={question}
             alt="Questin blog"
-            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
+            className="h-[400px] w-[600px] relative rounded-lg "
           />
           <div
             id="info"
@@ -83,7 +94,7 @@ function Project() {
           <img
             src={course}
             alt="course-flow"
-            className="h-[400px] w-[600px] relative rounded-lg shadow-xl shadow-black"
+            className="h-[400px] w-[600px] relative rounded-lg "
           />
           <div
             id="info"
