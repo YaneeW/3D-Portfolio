@@ -8,6 +8,7 @@ import HeaderSection from "./components/HeaderSection";
 import Skill from "./components/Skill";
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <AboutMe />
         <Skill />
         <Project />
+        <Contact />
       </div>
     </div>
   );
