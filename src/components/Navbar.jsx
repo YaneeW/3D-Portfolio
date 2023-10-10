@@ -8,18 +8,30 @@ function Navbar() {
         id="nav"
         className="flex flex-row justify-around items-center w-[50%] h-[35%] rounded-full   shadow-md shadow-[#C6C6C6] text-[#D6EDFF]"
       >
-        <div className="p-[5%] scale-100 hover:font-bold hover:scale-110 hover:text-[#FF00FF] transition ease-in-out duration-500 cursor-pointer">
+        <a
+          href="#about"
+          className="p-[5%] scale-100 hover:font-bold hover:scale-110 hover:text-[#FF00FF] transition ease-in-out duration-500 cursor-pointer"
+        >
           ABOUT
-        </div>
-        <div className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#00FF00] transition ease-in-out duration-500 cursor-pointer">
+        </a>
+        <a
+          href="#skill-detail"
+          className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#00FF00] transition ease-in-out duration-500 cursor-pointer"
+        >
           SKILL
-        </div>
-        <div className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#FF0000] transition ease-in-out duration-500 cursor-pointer">
+        </a>
+        <a
+          href="#project"
+          className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#FF0000] transition ease-in-out duration-500 cursor-pointer"
+        >
           PROJECT
-        </div>
-        <div className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#FFFF33] transition ease-in-out duration-500 cursor-pointer">
+        </a>
+        <a
+          href="#contact"
+          className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#FFFF33] transition ease-in-out duration-500 cursor-pointer"
+        >
           CONTACT
-        </div>
+        </a>
       </nav>
     </section>
   );

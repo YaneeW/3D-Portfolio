@@ -13,6 +13,9 @@
   z-index: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .portdetail {
   position: absolute;
   top: 0;
@@ -98,4 +101,57 @@
 #card:hover #info {
   opacity: 1;
   transform: translateY(0px);
+}
+
+#icon {
+  position: relative;
+}
+
+#github:before {
+  content: "Click icon  to see my github";
+  position: absolute;
+  bottom: 40px;
+  left: -15px;
+  display: block;
+  z-index: 2;
+  transition: 0.9s all;
+  opacity: 0;
+}
+
+#github:hover:before {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+#linkin:before {
+  content: "Click icon to see my linkedin";
+  position: absolute;
+  bottom: 40px;
+  left: 70px;
+  display: block;
+  z-index: 2;
+  transition: 0.9s all;
+  opacity: 0;
+}
+
+#linkin:hover:before {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+#resume:before {
+  content: "Click icon  to preview my resume";
+  position: absolute;
+  bottom: 40px;
+  left: 170px;
+  display: block;
+  z-index: 2;
+  transition: 0.9s all;
+  opacity: 0;
+  width: 400px;
+}
+
+#resume:hover:before {
+  opacity: 1;
+  transform: translateY(-10px);
 }

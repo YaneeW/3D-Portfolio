@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <section className=" w-[100%]">
       <main
-        id="main-footer"
+        id="about"
         className="text-white flex flex-row  items-start absolute top-[150%]"
       >
         <div

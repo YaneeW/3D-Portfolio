@@ -17,7 +17,12 @@ function Skill() {
       id="skill"
       className="absolute top-[220%] flex flex-col items-center "
     >
-      <header className="text-8xl syne m-[7%] custom-text-shadow">SKILL</header>
+      <header
+        id="skill-detail"
+        className="text-8xl syne m-[7%] custom-text-shadow"
+      >
+        SKILL
+      </header>
       <div
         id="icons"
         className="grid grid-cols-6 gap-20 justify-items-center justify-self-center w-[80%]"
