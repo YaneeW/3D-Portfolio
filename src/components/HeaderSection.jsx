@@ -18,6 +18,7 @@ function HeaderSection() {
           className="w-[850px] h-[800px] absolute z-1 right-[50%] top-[15%] saturate-50 brightness-100 contrast-125"
         />
         <img
+          id="moon"
           src={moon}
           alt="moon"
           className="w-[40%] absolute left-[60%] top-[100%] animate-pulse delay-2000"

@@ -9,13 +9,13 @@ function Navbar() {
         className="flex flex-row justify-around items-center w-[50%] h-[35%] rounded-full   shadow-md shadow-[#C6C6C6] text-[#D6EDFF]"
       >
         <a
-          href="#about"
+          href="#moon"
           className="p-[5%] scale-100 hover:font-bold hover:scale-110 hover:text-[#FF00FF] transition ease-in-out duration-500 cursor-pointer"
         >
           ABOUT
         </a>
         <a
-          href="#skill-detail"
+          href="#cloud"
           className="p-[5%] scale-100 hover:font-bold  hover:scale-110 hover:text-[#00FF00] transition ease-in-out duration-500 cursor-pointer"
         >
           SKILL

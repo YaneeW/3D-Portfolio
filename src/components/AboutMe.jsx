@@ -26,9 +26,10 @@ function AboutMe() {
           opportunity to use my professional and personal skills.
         </span>
         <img
+          id="cloud"
           src={cloud}
           alt="cloud"
-          className="absolute z-10 h-[200%] w-[100%] top-[70%]"
+          className="absolute z-10 h-[150%] w-[100%] top-[140%]"
         />
         <img
           src={quoteleft}
