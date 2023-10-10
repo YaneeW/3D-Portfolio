@@ -24,7 +24,7 @@ function Project() {
         PROJECT
       </h1>
 
-      <main className="grid grid-cols-2 gap-10 place-items-center w-[80%] syne ">
+      <main className="grid grid-cols-2 gap-10 place-items-center w-[80%] roboto">
         <div id="card" className="flex flex-col">
           <img
             src={trip}
@@ -40,7 +40,7 @@ function Project() {
             <a
               target="_blank"
               href="https://tripp-landing-page.vercel.app/"
-              className="bg-white text-black w-[60px] h-[30px] p-1 rounded-sm mt-2 font-bold text-center"
+              className="bg-white text-black w-[60px] h-[30px] p-1 rounded-sm mt-2 text-center hover:font-bold"
             >
               View
             </a>
@@ -63,7 +63,7 @@ function Project() {
             <a
               target="_blank"
               href="https://github.com/YaneeW/Tourist"
-              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 font-bold text-center"
+              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 text-center hover:font-bold"
             >
               View
             </a>
@@ -84,7 +84,7 @@ function Project() {
             <a
               target="_blank"
               href="https://github.com/YaneeW/Question-blog-post"
-              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 font-bold text-center text-md"
+              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 text-center text-md hover:font-bold"
             >
               View
             </a>
@@ -111,7 +111,7 @@ function Project() {
             <a
               target="_blank"
               href="https://github.com/YaneeW/courseflow"
-              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 font-bold text-center"
+              className="bg-white text-black w-[60px]  h-[30px]  p-1 rounded-sm mt-2 text-center hover:font-bold"
             >
               View
             </a>
