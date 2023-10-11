@@ -62,7 +62,7 @@ function Contact() {
             id="resume"
             className="flex flex-row justify-start items-center  h-[30px]"
           >
-            <a href="https://drive.google.com/file/d/1GTLQi_ImXQr64klTy9ZmA7FqzQ5FtaAx/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1w28uY6AGxPiEksU0jPG9y8MVaKGFKOMq/view?usp=sharing">
               <img
                 src={resume}
                 alt="resume"
