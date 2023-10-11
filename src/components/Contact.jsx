@@ -22,7 +22,7 @@ function Contact() {
             alt="email"
             className="h-[30px] w-[30px] m-4 scale-100 hover:scale-125 transition ease-in-out duration-700"
           />
-          <span>dreambee11@gmail.com</span>
+          <span>yanee_wiboonsak@hotmail.com</span>
         </div>
         <div id="icon" className="flex flex-row mt-20 w-[400px] justify-end">
           <div
